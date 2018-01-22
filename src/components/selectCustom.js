@@ -28,7 +28,7 @@ class SelectCustom extends React.Component {
 
     getOptions = () => {
         const that = this;
-        axios.get(this.state.url)
+        axios.get(this.state.url,{withCredentials: false,})
         .then(function (response) {
             if (!response && !response.data) throw "error";
             that.props.fillDefaultClients ? that.validateExposingData(true, response.data) 
