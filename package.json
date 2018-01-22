@@ -1,15 +1,18 @@
 {
   "name": "meupedidoteste",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "axios": "^0.17.1",
+    "express": "^4.16.2",
     "muicss": "^0.9.35",
+    "path": "^0.12.7",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0"
   },
   "scripts": {
+    "serve": "node server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
