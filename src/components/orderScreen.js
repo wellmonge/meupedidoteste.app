@@ -7,7 +7,7 @@ import Button from 'muicss/lib/react/button';
 import Panel from 'muicss/lib/react/panel';
 
 import SelectCustom from './selectCustom';
-
+const HOST = 'https://dashboard.heroku.com/apps/meupedidotesteapi'
 class OrderScreen extends React.Component {
   
   
