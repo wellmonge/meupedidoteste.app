@@ -20,7 +20,7 @@ const OrderGrid = (props) => {
     }
 
     return (    
-        <Container fluid={true}>
+        <Container className="grid" fluid={true}>
             <Row>
                 <Col md="4">Produto</Col>
                 <Col md="4">Preço Unitário</Col>
