@@ -33,6 +33,12 @@
 form {
   padding: 0 8em 0 8em
 }
+.currecyInput {
+  border: none;
+    font-size: -webkit-xxx-large;
+    font-family: monospace;
+    padding: 0 3em 0 3em
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
