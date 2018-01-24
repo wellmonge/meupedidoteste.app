@@ -118,7 +118,7 @@ class OrderScreen extends React.Component {
     axios.post(`${HOST}/order/create`,order)
       .then((response) => {
         debugger
-        alert(`O seu pedido de ID ${response.data._id}foi enviado`);
+        alert(`O seu pedido de ID ${response.data.Data._id} foi enviado.`);
         that.setState({ productToOrders : [] });
          
     }).catch(function (error) {
