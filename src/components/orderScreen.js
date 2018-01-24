@@ -13,9 +13,9 @@ import SelectCustom from './selectCustom';
 import OrderGrid from './orderGrid';
 import styles from "./styles";
 
-// const HOST = 'https://meupedidotesteapi.herokuapp.com';
+const HOST = 'https://meupedidotesteapi.herokuapp.com';
 
-const HOST = 'http://localhost:3000';
+// const HOST = 'http://localhost:3000';
 class OrderScreen extends React.Component {
   constructor(props) {
       super(props);
